@@ -1,0 +1,16 @@
+{
+  "name": "divakar-til-blog",
+  "packageManager": "yarn@4.1.1",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  },
+  "prettier": {
+    "proseWrap": "never"
+  },
+  "scripts": {
+    "fix": "prettier . --write",
+    "lint": "vale . && prettier . --check"
+  }
+}

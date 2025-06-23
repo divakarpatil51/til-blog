@@ -4,3 +4,23 @@
 
 # System (macOS)
 .DS_Store
+
+# Node.js
+/node_modules/
+
+# Vale
+# https://vale.sh/docs/topics/packages/#packages-and-vcs
+vale/styles/*
+
+vale/styles/config/*
+
+vale/styles/config/vocabularies/*
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
