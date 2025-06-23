@@ -2,7 +2,7 @@
 
 Writing about tech, Python, & Django.
 
-<http://divakarpatil.com>
+<https://til-blog-7t3.pages.dev/>
 
 ## To create a new post
 
@@ -12,7 +12,7 @@ hugo new content posts/title.md
 
 ### To publish
 
-Remove the `draft` line from your post, then push it to github. 
+Remove the `draft` line from your post, then push it to github.
 
 Cloudflare will build and serve the site.
 

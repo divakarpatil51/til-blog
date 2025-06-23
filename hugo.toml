@@ -1,5 +1,5 @@
-baseURL = 'https://divakarpatil.com/'
-languageCode = 'en-au' # or en-gb, en-us, ja-jp, etc
+baseURL = 'https://til-blog-7t3.pages.dev/'
+languageCode = 'en-au'
 title = 'Divakar Patil'
 theme = 'papermod'
 
@@ -7,6 +7,36 @@ theme = 'papermod'
 [params]
 showCodeCopyButtons = true
 showReadingTime = true
+author = "Divakar Patil"
+description = "Technical writing about Python, Django & Databases"
+
+socialIcons = [
+  { name = "github", url = "https://github.com/divakarpatil51" },
+]
+
+[params.homeInfoParams]
+Title = "Technical writing about Python, Django, & Databases"
+Content = "🐙 Software Engineer at [Kraken Technologies](https://kraken.tech/)"
+ShowCodeCopyButtons = true
+showFullTextInRss = true
+
+[menu]
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 1
+
+[[menu.main]]
+identifier = "til"
+name = "TIL"
+url = "/til/"
+weight = 2
+
+
+[params.outputFormats.RSS]
+baseName = "feed"
 
 [params.editPost]
 URL = "https://github.com/divakarpatil51/til-blog/blob/main/content"
